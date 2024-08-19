@@ -17,6 +17,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           darkColor="rgba(255,255,255,0.8)">
           Open up the code for this screen:
         </Text>
+        
 
         <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
@@ -36,6 +37,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
       <View style={styles.helpContainer}>
         <ExternalLink
           style={styles.helpLink}
+                    
           href="https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet">
           <Text style={styles.helpLinkText} lightColor={Colors.light.tint}>
             Tap here if your app doesn't automatically update after making changes

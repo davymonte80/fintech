@@ -25,12 +25,10 @@ export default function Root({ children }: { children: React.ReactNode }) {
 
       <body>{children}
         
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <ThemedText type="title">Hello World!</ThemedText>
-        <HelloWave />
-      </ThemedView>
+        
       </body>
+      
+      
     </html>
   );
 }
